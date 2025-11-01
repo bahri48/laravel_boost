@@ -33,7 +33,7 @@ VS Code
 4. perintah diatas akan menghasilkan file .mcp.json dan kode berikut ini:
 
 
-{
+```{
   "mcpServers": {
     "laravel-boost": {
       "type": "stdio",
@@ -66,4 +66,4 @@ VS Code
       }
     }
   }
-}
+}```
