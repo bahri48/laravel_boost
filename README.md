@@ -32,7 +32,7 @@ VS Code
 3. claude mcp add herd --scope project --env SITE_PATH="D:\DirektoryName\DirektoryProject" -- php C:/Users/<UserComputerName>/.config/herd/bin/herd-mcp.phar
 4. perintah diatas akan menghasilkan file .mcp.json dan kode berikut ini:
 
-
+File .mcp.json
 ```
 {
   "mcpServers": {
