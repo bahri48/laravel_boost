@@ -30,7 +30,9 @@ VS Code
 1. claude mcp add laravel-boost --scope project -- php artisan boost:mcp
 2. claude mcp add sequential-thinking --scope project -- npx -y @modelcontextprotocol/server-sequential-thinking
 3. claude mcp add herd --scope project --env SITE_PATH="D:\DirektoryName\DirektoryProject" -- php C:/Users/<UserComputerName>/.config/herd/bin/herd-mcp.phar
-perintah diatas akan menghasilkan file .mcp.json dan kode berikut ini:
+4. perintah diatas akan menghasilkan file .mcp.json dan kode berikut ini:
+
+
 {
   "mcpServers": {
     "laravel-boost": {
@@ -57,7 +59,7 @@ perintah diatas akan menghasilkan file .mcp.json dan kode berikut ini:
       "type": "stdio",
       "command": "php",
       "args": [
-        "C:/Users/LabKom/.config/herd/bin/herd-mcp.phar"
+        "C:/Users/<UserComputerName>/.config/herd/bin/herd-mcp.phar"
       ],
       "env": {
         "SITE_PATH": "D:\\Koding\\laravel_boost"
